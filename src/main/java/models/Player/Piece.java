@@ -26,9 +26,33 @@ public class Piece {
 
             if (characterSelect.equals("1")){
 
+                if(!bilLock){
+                    this.bilLock=true;
+                    System.out.println("Du har valgt Bilen");
+                    break;
+                }
+
+            }
+            if (bilLock && characterSelect.equals("1")){
+                System.out.println("Bilen er allerde taget");
+                continue;
             }
 
+            if (characterSelect.equals("2"))
+                if (!racebilLock){
+                    this.racebilLock=true;
+                    System.out.println("Du har valgt Racerbilen");
+                    break;
+                }
+            if (racebilLock && characterSelect.equals("2")){
+                System.out.println("Billen er allerde taget");
+                continue;
+            }
+
+
         }
+
+
 
 
 
