@@ -49,6 +49,28 @@ public class Piece {
                 continue;
             }
 
+            if (characterSelect.equals("3"))
+                if (!traktorLock){
+                    this.traktorLock=true;
+                    System.out.println("Du har valgt TraktorLock");
+                    break;
+                }
+            if (traktorLock && characterSelect.equals("3")){
+                System.out.println("Bilen er allerde taget");
+                continue;
+            }
+
+            if (characterSelect.equals("4"))
+                if (!ufoLock){
+                    this.ufoLock=true;
+                    System.out.println("Du har valgt UfoLock");
+                    break;
+                }
+            if (ufoLock && characterSelect.equals("4")){
+                System.out.println("Bilen er allede taget ");
+                continue;
+            }
+
 
         }
 
