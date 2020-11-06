@@ -81,3 +81,64 @@ public class Piece {
 
     }
 }
+
+/*
+import java.util.Scanner;
+
+public class Piece {
+
+    int bilLock,racebilLock,traktorLock,ufoLock,choise;
+
+
+    public  Piece(){
+
+
+
+        Scanner input =new Scanner(System.in);
+
+        System.out.println("Enter your choise:");
+
+        System.out.println("1. for at være bilLock");
+        System.out.println("2. for at være raceBillock");
+        System.out.println("3. for at være traktorLock");
+        System.out.println("4. for at være ufoLock");
+
+        choise = input.nextInt();
+
+
+        switch (choise){
+
+            case 1 :
+                System.out.println("Du har valgt bilLock"+bilLock);
+                break;
+            case 2 :
+                System.out.println("DU HAR valgt racebilLock"+racebilLock);
+                break;
+            case 3 :
+                System.out.println("Du har valgt traktorLock"+traktorLock);
+                break;
+            case 4 :
+                System.out.println("Du har valgt ufoLock"+ufoLock);
+                break;
+            default:
+                System.out.println("Denne numer som du har valgt findes ikke");
+
+
+
+
+        }
+
+
+
+    }
+
+
+
+    }
+
+
+ */
+
+
+
+
