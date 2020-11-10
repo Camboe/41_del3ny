@@ -4,6 +4,7 @@ public class Player {
     private String name;
     protected int position;
     private int account;
+    private final int MaxPlayers=4;
 
 
     public Player(String name, int position, int account) {
