@@ -1,6 +1,7 @@
 package models.Die;
 
-public class Die {private int MAX = 6; // terning har 6 sider
+public class Die {
+    private int MAX = 6; // terning har 6 sider
     private int facevalue;
     private String result;
 
