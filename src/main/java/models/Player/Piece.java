@@ -10,6 +10,7 @@ public class Piece {
     private boolean ufoLock;
 
 
+
     public void pieceselect(){
 
         System.out.println("Tryk 1 for at være Bilen " +
