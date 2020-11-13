@@ -24,7 +24,7 @@ public class Piece {
         return postion;
     }
     public void setPostion(int sæt){
-        this.postion=sæt;
+        this.postion=sæt;//
 
     }
 
