@@ -1,7 +1,7 @@
 package models.Fields;
 
 public class Field {
-    private int position;
+    protected int position;
 
     public Field(int numPosition) {
         position = numPosition;
