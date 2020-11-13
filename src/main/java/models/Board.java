@@ -5,24 +5,25 @@ import java.io.*;
 import java.math.*;
 
 
-public class Board { public static void main(String args[]) {
-    Scanner in = new Scanner(System.in);
-    int P = in.nextInt();
-    if (in.hasNextLine()) {
-        in.nextLine();
+public class Board { public static void main(String args[])
+{
+    Scanner input = new Scanner(System.in);
+    int P = input.nextInt();
+    if (input.hasNextLine()) {
+        input.nextLine();
     }
     for (int i = 0; i < P; i++) {
-        String player = in.nextLine();
+        String player = input.nextLine();
     }
-    int D = in.nextInt();
-    if (in.hasNextLine()) {
-        in.nextLine();
+    int D = input.nextInt();
+    if (input.hasNextLine()) {
+        input.nextLine();
     }
     for (int i = 0; i < D; i++) {
-        String dice = in.nextLine();
+        String dice = input.nextLine();
     }
     for (int i = 0; i < 24; i++) {
-        String boardline = in.nextLine();
+        String boardline = input.nextLine();
     }
 
     // Write an answer using System.out.println()

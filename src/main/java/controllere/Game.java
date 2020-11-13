@@ -13,13 +13,13 @@ public class Game {
 
 
 
-        Scanner input=new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
 
-        GUI gui =new GUI();
+        GUI gui = new GUI();
 
 
-        int playerAmount=gui.getUserInteger("Hvor mange spiller vild du have");
+        int playerAmount=gui.getUserInteger("Hvor mange spiller vil du have");
 
 
         PlayerListe playerListe=new PlayerListe(playerAmount);
