@@ -1,5 +1,6 @@
 package controllere;
 
+import gui_main.GUI;
 import javafx.scene.control.Skin;
 import models.Player.Piece;
 import models.Player.PlayerListe;
@@ -15,16 +16,17 @@ public class Game {
         Scanner input=new Scanner(System.in);
 
 
-        System.out.println("Hvor mange spiller vild du have");
-        int playerAmount=input.nextInt();
+        GUI gui =new GUI();
+
+
+        int playerAmount=gui.getUserInteger("Hvor mange spiller vild du have");
 
 
         PlayerListe playerListe=new PlayerListe(playerAmount);
 
         for (int i = 0; i < playerAmount ; i++) {
 
-            System.out.println("vægl dit navn ");
-            String navn = input.nextLine();
+            String navn = gui.getUserString("vægl dit navn ");
             playerListe.getplayer(i).setName(navn);
             playerListe.getaccount(i).setBalance(playerListe.getaccount(i).StartBalance(playerAmount));
         }
