@@ -15,8 +15,8 @@ public class Account {
         this.account =account;
     }
 
-    public void addPoint(int squareValue) {
-        account += squareValue;
+    public void addPoint(int fieldValue) {
+        account += fieldValue;
         }
     }
 

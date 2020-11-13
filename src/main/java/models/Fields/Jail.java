@@ -12,8 +12,6 @@ public class Jail extends Field{
     @Override
     public void setPosition(int numPosition) {
         super.setPosition(6);
-
     }
-
 
 }
