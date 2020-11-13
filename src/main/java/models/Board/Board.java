@@ -2,9 +2,9 @@ package models.Board;
 
 public class Board {
     Field[] field = new Field[24]; {
-        field[0] = new Field(1 , " welcome to start");
-        field[1] = new Field(2 , " ");
-        field[2] = new Field(3 , " ");
+        field[0] = new Field(1 , " Velkommen til start. Modtag M 2, Når du passerer start" , 2 , null, 0, null);
+        field[1] = new Field(2 , " Burgerbaren ", 1, 0, 0, " Brun ");
+        field[2] = new Field(3 , " Pizzeriaet " , 1, 0, " Brun ");
         field[3] = new Field(4 , " ");
         field[4] = new Field(5 , " ");
         field[5] = new Field(6 , " ");
@@ -28,14 +28,9 @@ public class Board {
         field[23] = new Field(24 , " ");
 
 
-
-
-
-
-
-
-
-
+    }
+    public void getFields(){
+        for (int i = 0; i < )
     }
 
 }

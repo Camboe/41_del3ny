@@ -1,13 +1,13 @@
 package models.Board;
 
 public class Property extends Field {
-    private int propertyNumber;
+    private int fieldPossion;
     private int propertyPrice;
     private String propertyOwner;
 
-    public Property(int numPosition, int propertyNumber, int propertyPrice, String propertyOwner) {
+    public Property(int numPosition, int fieldPossion, int propertyPrice, String propertyOwner) {
         super(numPosition);
-        this.propertyNumber = propertyNumber;
+        this.fieldPossion = fieldPossion;
         this.propertyPrice = propertyPrice;
         this.propertyOwner = propertyOwner;
     }
