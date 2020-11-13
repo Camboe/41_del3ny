@@ -1,5 +1,7 @@
 package models.Player;
 
+import javax.swing.text.Position;
+
 public class PlayerListe {
 
     Player[] players;
@@ -17,7 +19,8 @@ public class PlayerListe {
 
             accounts [i]=new Account(0);
             players [i]=new Player(null,0,0);
-            pieces[i]=new Piece(null);
+            pieces[i]=new Piece(null,0);
+
 
         }
     }

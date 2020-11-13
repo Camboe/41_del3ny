@@ -5,16 +5,12 @@ import java.util.Scanner;
 public class Piece {
 
     private String type;
+    private int postion;
 
-
-
-
-
-    public Piece(String type){
-
-
+    public Piece(String type,int postion){
+        this.postion=postion;
+        this.type=type;
     }
-
 
     public String getType() {
         return type;
@@ -22,6 +18,14 @@ public class Piece {
 
     public void setType(String type) {
         this.type = type;
+    }
+
+    public int getPostion(){
+        return postion;
+    }
+    public void setPostion(int sæt){
+        this.postion=sæt;
+
     }
 
 

@@ -28,6 +28,7 @@ public class Game {
             playerListe.getaccount(i).setBalance(playerListe.getaccount(i).StartBalance(playerAmount));
         }
         System.out.println("Spilleren " + playerListe.getplayer(1).getName() +  "har en balance på " + playerListe.getaccount(1).getBalance() );
+playerListe.getpiece(1).getPostion();
 
     }
 
