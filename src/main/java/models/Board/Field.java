@@ -1,4 +1,4 @@
-package models.Fields;
+package models.Board;
 
 public class Field {
     protected int position;

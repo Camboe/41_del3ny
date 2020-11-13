@@ -1,7 +1,5 @@
 package models.Board;
 
-import models.Fields.Field;
-
 public class Board {
     Field[] field = new Field[24]; {
         field[0] = new Field(1 , " welcome to start");

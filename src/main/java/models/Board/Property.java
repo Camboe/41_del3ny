@@ -1,4 +1,4 @@
-package models.Fields;
+package models.Board;
 
 public class Property extends Field {
     private int propertyNumber;
