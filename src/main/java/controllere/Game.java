@@ -13,6 +13,7 @@ public class Game {
 
         Scanner input=new Scanner(System.in);
 
+
         System.out.println("Hvor mange spiller vild du have");
         int playerAmount=input.nextInt();
 
