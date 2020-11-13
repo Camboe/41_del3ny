@@ -20,6 +20,32 @@ public class PlayerListe {
             pieces[i]=new Piece(null);
 
         }
+    }
+
+
+    public Player getplayer(int num ){
+        return players[num];
+    }
+
+    public Account getaccount( int num){
+        return accounts[num];
+
 
     }
+
+    public Piece getpiece( int num){
+        return pieces[num];
+
+    }
+
+
+
+
+
+
+
+
+
+
+
 }
