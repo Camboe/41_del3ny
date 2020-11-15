@@ -4,13 +4,13 @@ public class Field {
     protected int position;
     private String title;
     private int price;
-    private String payRent;
+    private int payRent;
     Boolean propertyOwner;
     private String colour;
 
 
 
-    public Field(int position, String title, int price, String payRent, Boolean propertyOwner, String colour) {
+    public Field(int position, String title, int price, int payRent, Boolean propertyOwner, String colour) {
         this.position = position;
         this.title = title;
         this.price = price;
@@ -46,11 +46,11 @@ public class Field {
         this.price = price;
     }
 
-    public String getPayRent() {
+    public int getPayRent() {
         return payRent;
     }
 
-    public void setPayRent(String payRent) {
+    public void setPayRent(int payRent) {
         this.payRent = payRent;
     }
 
