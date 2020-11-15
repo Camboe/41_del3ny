@@ -1,10 +1,11 @@
 package models;
 
 public class ActionCard {
+
     private String text;
-    private int valueMoney;
+    private int valueMoney ,fieldValue;
     Boolean bonusTurn;
-    private int fieldValue;
+
 
 
     public ActionCard(String text, int valueMoney, Boolean bonusTurn, int fieldValue) {
