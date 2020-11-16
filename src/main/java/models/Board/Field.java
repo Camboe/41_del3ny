@@ -3,7 +3,7 @@ package models.Board;
 public class Field {
 
 
-    protected int position;
+    protected int fieldId;
     private String title;
     private int price,payRent;
     Boolean propertyOwner;
@@ -11,8 +11,8 @@ public class Field {
 
 
 
-    public Field(int position, String title, int price, int payRent, Boolean propertyOwner, String colour) {
-        this.position = position;
+    public Field(int fieldId, String title, int price, int payRent, Boolean propertyOwner, String colour) {
+        this.fieldId = fieldId;
         this.title = title;
         this.price = price;
         this.payRent = payRent;
@@ -20,14 +20,14 @@ public class Field {
         this.colour = colour;
     }
 
-    public void setPosition(int numPosition){
+    public void setFieldId(int numPosition){
 
-        position = numPosition;
+        fieldId = numPosition;
     }
 
-    public int getPosition() {
+    public int getFieldId() {
 
-        return position;
+        return fieldId;
 
     }
 
@@ -72,7 +72,7 @@ public class Field {
     }
 
     public String toString() {
-        return "Field{"+ position  + "\n" + colour + "\n" + title + "\n" + price + "\n" + payRent + "\n" + propertyOwner;
+        return "Field{"+ fieldId + "\n" + colour + "\n" + title + "\n" + price + "\n" + payRent + "\n" + propertyOwner;
 
 
     }

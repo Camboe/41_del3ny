@@ -1,6 +1,8 @@
 package models.Board;
 
 public class Jail extends Field{
+
+
     private int lostValue;
 
     public Jail(int numPosition, int lostValue) {
@@ -10,8 +12,8 @@ public class Jail extends Field{
 
 
     @Override
-    public void setPosition(int numPosition) {
-        super.setPosition(6);
+    public void setFieldId(int numPosition) {
+        super.setFieldId(6);
     }
 
 }

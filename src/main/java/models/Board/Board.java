@@ -34,9 +34,9 @@ public class Board {
 
     int getpoints(int sumFacevalue) {
         if (sumFacevalue == 25) {
-            return field[0].getPosition();
+            return field[0].getFieldId();
         } else {
-            return field[sumFacevalue - 1].getPosition();
+            return field[sumFacevalue - 1].getFieldId();
 
         }
     }
