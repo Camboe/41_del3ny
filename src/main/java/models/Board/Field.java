@@ -1,10 +1,11 @@
 package models.Board;
 
 public class Field {
+
+
     protected int position;
     private String title;
-    private int price;
-    private int payRent;
+    private int price,payRent;
     Boolean propertyOwner;
     private String colour;
 
