@@ -9,9 +9,10 @@ public class Player {
     private Account account;
 
 
-    public Player(String name, int position, int account) {
+    public Player(String name, int position, int startBalance) {
         this.name = name;
         this.position = position;
+        this.account = new Account(startBalance);
 
     }
     public void setName(String name){
@@ -27,11 +28,10 @@ public class Player {
         return position;
 
     }
-    Player player1 = new Player(" Player1 " , 0, 20);
-    Player player2 = new Player(" Player 2 " , 0, 20);
-    Player player3 = new Player(" Player 3 " , 0, 20);
-    Player player4 = new Player(" Player4 " , 0, 20);
 
+    public void setPosition(int newPosition){
+        this.position = newPosition;
+    }
 
 }
 
