@@ -1,8 +1,8 @@
 package models.Fields;
 
 public class Property extends Field {
-    private int propertyNumber;
-    private int propertyPrice;
+    private int propertyNumber,propertyPrice;
+
     private String propertyOwner;
 
     public Property(int numPosition, int propertyNumber, int propertyPrice, String propertyOwner) {
