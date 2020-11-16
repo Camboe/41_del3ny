@@ -33,5 +33,8 @@ public class Player {
         this.position = newPosition;
     }
 
+    public Account getAccount(){
+        return account;
+    }
 }
 

@@ -1,22 +1,24 @@
 package models.Board;
 
+import models.Player.Player;
+
 public class Field {
 
 
     protected int fieldId;
     private String title;
     private int price,payRent;
-    Boolean propertyOwner;
+    Player propertyOwner;
     private String colour;
 
 
 
-    public Field(int fieldId, String title, int price, int payRent, Boolean propertyOwner, String colour) {
+    public Field(int fieldId, String title, int price, int payRent, String colour) {
         this.fieldId = fieldId;
         this.title = title;
         this.price = price;
         this.payRent = payRent;
-        this.propertyOwner = propertyOwner;
+        this.propertyOwner = null;
         this.colour = colour;
     }
 
@@ -55,11 +57,11 @@ public class Field {
         this.payRent = payRent;
     }
 
-    public Boolean getPropertyOwner() {
-        return propertyOwner;
+    public Player getPropertyOwner() {
+        return this.propertyOwner;
     }
 
-    public void setPropertyOwner(Boolean propertyOwner) {
+    public void setPropertyOwner(Player propertyOwner) {
         this.propertyOwner = propertyOwner;
     }
 
