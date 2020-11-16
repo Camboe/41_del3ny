@@ -71,7 +71,7 @@ public class Field {
     }
 
     public String toString() {
-        return "Field{"+ position  + "\n" + colour + "\n" + title + "\n" + price + "\n" + payRent + "\n" + propertyOwner};
+        return "Field{"+ position  + "\n" + colour + "\n" + title + "\n" + price + "\n" + payRent + "\n" + propertyOwner;
 
 
     }
