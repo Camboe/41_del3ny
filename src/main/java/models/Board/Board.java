@@ -30,6 +30,7 @@ public class Board {
         field[23] = new Field(24, " Strandpromenaden ", 5, 5, false, " Blå ");
 
 
+
     }
 
 
