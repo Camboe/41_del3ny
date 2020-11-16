@@ -1,6 +1,8 @@
 package models.Board;
 
 public class Jail extends Field{
+
+
     private int lostValue;
 
     public Jail(int numPosition, int lostValue) {

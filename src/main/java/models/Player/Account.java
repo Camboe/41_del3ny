@@ -2,21 +2,42 @@ package models.Player;
 
 public class Account {
 
-    protected int account;
-    private int bottomBalance;
 
-    //set balance to startbalance
-    public Account (){
-        account = 20;
+
+    private int balance;
+
+
+    public Account (int Balance){
+
+
+
 
     }
 
-    public void setAccount(int account){
-        this.account =account;
+
+
+    public int getBalance() {
+        return balance;
     }
 
-    public void addPoint(int fieldValue) {
-        account += fieldValue;
+    public int setBalance(int balance) {
+        this.balance = balance;
+        return balance;
+    }
+
+    public int StartBalance(int playerAmount){
+        if (playerAmount==2){
+            setBalance(20);
+
+        }else if (playerAmount==3){
+            setBalance(18);
+        }else if (playerAmount==4){
+                setBalance(16);
         }
+
+        return playerAmount;
     }
 
+
+
+}
