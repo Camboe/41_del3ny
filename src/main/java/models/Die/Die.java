@@ -18,7 +18,7 @@ public class Die {
         return facevalue;
     }
     public String toString () {
-        return result  = Integer.toString(facevalue);
+        return result  = Integer.toString(facevalue);//
 
     }
 }
