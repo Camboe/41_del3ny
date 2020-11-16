@@ -4,10 +4,10 @@ public class Die {
 
     private int MAX = 6; // terning har 6 sider
     private int facevalue;
-    private String result;
 
-    public Die(int facevalue) {
-        this.facevalue = facevalue;
+
+    public Die() {
+        this.facevalue = 1;
     }
 
     public  int roll() {
@@ -19,7 +19,7 @@ public class Die {
         return facevalue;
     }
     public String toString () {
-        return result  = Integer.toString(facevalue);
+        return Integer.toString(facevalue);
 
     }
 }
