@@ -1,4 +1,4 @@
-package models.Fields;
+package models.Board;
 
 public class Jail extends Field{
     private int lostValue;
